@@ -1,0 +1,52 @@
+﻿@model HomeVM
+
+<main>
+    <ul>
+        @foreach (var item in Model.Students)
+        {
+            <li>@item.Name</li>
+            <li>@item.Age</li>
+        }
+    </ul>
+    <h1>@Model.Product.Name</h1>
+    <h1>@Model.Product.Price</h1>
+   
+</main>
+
+
+
+
+
+
+
+
+
+@*@model List<Student>
+*@
+@*@foreach (var item in Model)
+{
+    <h1>@item.Id</h1>
+    <h1>@item.Name</h1>
+    <h1>@item.Age</h1>
+}*@
+
+@*<span>@ViewBag.address</span>*@
+
+@*<h1>P135</h1>
+*@
+
+@{
+    //string[] names = (string[])ViewData["names"];
+
+    //int[] nums = ViewBag.numbers;
+
+    //string[] names = ViewBag.names;
+
+}
+@*
+<h1>@ViewBag.name</h1>*@
+
+@*@foreach (var item in names)
+{
+    <h1>@item</h1>
+}          *@
